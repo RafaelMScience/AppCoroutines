@@ -36,7 +36,7 @@ class MainFragment : Fragment() {
             txtViewFilmes.text = filmes[0].titulo
         })
 
-        viewModel.getFilmes()
+        viewModel.getFilmesCoroutines()
     }
 
 }
